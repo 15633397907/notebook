@@ -15,6 +15,10 @@
 
 ## image
 
+| <img src="pics/rg_filter_pics_01.png" height="200" alt="before filter"/>|<img src="pics/rg_filter_pics_02.png" height="200" alt="after filter"/>|
+|:---:|:---:|
+|pic.1 before filter|pic.2 after filter|
+
 <center class="half">
     <img src="pics/rg_filter_pics_01.png" height="200" alt="before filter"/>   <img src="pics/rg_filter_pics_02.png" height="200" alt="after filter"/>
 </center>
