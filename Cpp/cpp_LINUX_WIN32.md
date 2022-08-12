@@ -1,11 +1,10 @@
-# Section.1 LINUX & WIN32
-
+# LINUX & WIN32
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.1 LINUX & WIN32](#section1-linux--win32)
+- [LINUX & WIN32](#linux--win32)
   - [头文件替换](#头文件替换)
   - [sprintf_s -> snprintf](#sprintf_s---snprintf)
   - [fopen_s -> fopen](#fopen_s---fopen)
@@ -16,7 +15,6 @@
   - [CPU数量](#cpu数量)
 
 <!-- /code_chunk_output -->
-
 
 ## 头文件替换
 

@@ -1,10 +1,10 @@
-# Section.2 LandApp / IO, Plot, QXlsx & Util
+# LandApp / IO, Plot, QXlsx & Util
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.2 LandApp / IO, Plot, QXlsx & Util](#section2-landapp--io-plot-qxlsx--util)
+- [LandApp / IO, Plot, QXlsx & Util](#landapp--io-plot-qxlsx--util)
   - [IO](#io)
   - [Plot](#plot)
   - [QXlsx](#qxlsx)

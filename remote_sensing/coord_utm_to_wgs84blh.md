@@ -1,10 +1,10 @@
-# Section.1 UTM to WGS84 BLH
+# UTM to WGS84 BLH
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.1 UTM to WGS84 BLH](#section1-utm-to-wgs84-blh)
+- [UTM to WGS84 BLH](#utm-to-wgs84-blh)
   - [History](#history)
     - [UTM zone](#utm-zone)
     - [Overlapping grids](#overlapping-grids)

@@ -1,10 +1,10 @@
-# Section.3 影像重采样
+# 影像重采样
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.3 影像重采样](#section3-影像重采样)
+- [影像重采样](#影像重采样)
   - [双线性内插法](#双线性内插法)
   - [三次卷积插值](#三次卷积插值)
   - [代码](#代码)

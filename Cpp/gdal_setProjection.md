@@ -1,4 +1,4 @@
-# Section.3 setProjection
+# setProjection
 
 为影像添加坐标系统
 
@@ -19,4 +19,3 @@ AUTHORITY[\"EPSG","4326\"]]";
 
 GDALDataset::setProjection(projection);
 ```
-

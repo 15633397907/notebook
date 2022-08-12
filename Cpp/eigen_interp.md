@@ -12,7 +12,7 @@
 
 ## 原理
 
-参考[iamge_resampling](../../part04_rs/cpt01_img_processing/02_image_resampling.md)
+参考[iamge_resampling](../remote_sensing/img_resampling.md)
 
 ## 代码
 

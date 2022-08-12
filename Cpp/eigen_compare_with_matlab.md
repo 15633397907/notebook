@@ -1,10 +1,10 @@
-# Section.2 与Matlab命令对比
+# 与Matlab命令对比
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.2 与Matlab命令对比](#section2-与matlab命令对比)
+- [与Matlab命令对比](#与matlab命令对比)
   - [矩阵/向量的尺寸、值](#矩阵向量的尺寸值)
   - [矩阵重定义大小](#矩阵重定义大小)
   - [矩阵填充](#矩阵填充)

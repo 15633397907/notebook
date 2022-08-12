@@ -1,4 +1,4 @@
-# Section.1 gitbook安装
+# Gitbook安装
 
 1.安装
 

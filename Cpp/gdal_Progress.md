@@ -1,4 +1,4 @@
-# Section.1 GDAL进度条
+# GDAL进度条
 
 gdal的进度条都是通过回调函数使用的。
 
@@ -60,5 +60,3 @@ int main(int argc, char *argv[])
 <center>
 <img src="pics/image-20220407132249046.png" height="450" alt="RasterIO process"/>
 </center>
-
-

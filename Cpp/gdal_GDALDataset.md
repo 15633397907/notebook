@@ -1,10 +1,10 @@
-# Section.2 GDALDataset
+# GDALDataset
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.2 GDALDataset](#section2-gdaldataset)
+- [GDALDataset](#gdaldataset)
   - [MEM](#mem)
 
 <!-- /code_chunk_output -->

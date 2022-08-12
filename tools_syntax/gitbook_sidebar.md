@@ -1,4 +1,4 @@
-# Section.4 gitbook侧边栏导航问题
+# Gitbook侧边栏导航问题
 
 使用新下载的nodejs和npm安装gitbook
 `npm gitbook-cli -g`

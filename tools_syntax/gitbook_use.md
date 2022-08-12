@@ -1,4 +1,4 @@
-# Section.2 gitbook 命令
+# Gitbook 命令
 
 gitbook init 命令只是用来创建readme.md和SUMMARY.md两个文档，如果代码出错，直接创建连个代码，然后使用gitbook build即可。
 

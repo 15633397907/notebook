@@ -1,10 +1,10 @@
-# Section.3 .mat读取
+# .mat读取
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.3 .mat读取](#section3-mat读取)
+- [.mat读取](#mat读取)
   - [VS工程设置](#vs工程设置)
   - [mat读取代码](#mat读取代码)
 

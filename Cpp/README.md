@@ -50,6 +50,12 @@ gdal的进度条的回调函数使用方法。
 
 简单的三方库, 文件中记录的是version 1的代码, 但与2区别不大。
 
+## GAMMA
+
+### [geo_loc](./gamma_geo_loc.md)
+
+RD正算, 确定地面点坐标。
+
 ## Function
 
 ### [二进制数据读写(float)](./cpp_binary_float_IO.md)

@@ -1,4 +1,4 @@
-# Section.2 二进制float读取
+# 二进制float读取
 
 ``` C++
 bool slcRead(const char *src,float *fReal, float *fImag)

@@ -1,4 +1,4 @@
-# Section.3 Diagram Syntax 图表语法
+# markdown Diagram Syntax 图表语法
 
 [toc]
 

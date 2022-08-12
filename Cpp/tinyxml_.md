@@ -1,10 +1,10 @@
-# Chapter.4 TinyXML
+# TinyXML
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Chapter.4 TinyXML](#chapter4-tinyxml)
+- [TinyXML](#tinyxml)
   - [环境配置](#环境配置)
   - [使用](#使用)
     - [首先设置根目录](#首先设置根目录)

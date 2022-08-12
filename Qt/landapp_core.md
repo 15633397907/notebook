@@ -1,10 +1,10 @@
-# Section.1 LandApp / Core
+# LandApp / Core
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.1 LandApp / Core](#section1-landapp--core)
+- [LandApp / Core](#landapp--core)
   - [Core::RegExp](#coreregexp)
   - [Core::SysSpace](#coresysspace)
     - [QstandardPaths](#qstandardpaths)

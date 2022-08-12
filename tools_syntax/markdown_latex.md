@@ -1,4 +1,4 @@
-# Section.2 LaTeX语法
+# LaTeX语法
 
 [toc]
 

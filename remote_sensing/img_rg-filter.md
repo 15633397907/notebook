@@ -1,10 +1,10 @@
-# Section.1 RG Filter
+# RG滤波
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.1 RG Filter](#section1-rg-filter)
+- [RG滤波](#rg滤波)
   - [image](#image)
   - [算法流程](#算法流程)
     - [Step1: Small Structure Removal](#step1-small-structure-removal)
@@ -55,4 +55,6 @@ $$
 
 ## C++代码
 
-详见[RG Filter代码]()
+详见[RG Filter代码](#C++代码) 
+
+暂未上传。

@@ -1,10 +1,10 @@
-# Section.4 regex正则表达式
+# regex正则表达式
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.4 regex正则表达式](#section4-regex正则表达式)
+- [regex正则表达式](#regex正则表达式)
   - [正则表达式规则](#正则表达式规则)
     - [字符集](#字符集)
     - [计数（重复）](#计数重复)
