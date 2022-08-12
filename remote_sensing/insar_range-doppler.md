@@ -95,7 +95,9 @@ $$
 
 ### 1.观察者移动，声源不动
 
-![观察者移动 生源不动](./pics/rd_pic1.png)
+<center>
+<img src="./pics/rd_pic1.png" alt="观察者移动 生源不动"  height = 300/>
+</center>
 
 当 $A$移动到 $A'$时，走过距离 $v_At$，声传播距离 $vt$.
 
@@ -119,7 +121,9 @@ $$
 
 ### 2.声源移动，观察者不动
 
-![声源移动 波长改变](./pics/rd_pic2.png)
+<center>
+<img src="./pics/rd_pic2.png" alt="声源移动 波长改变"  height = 300/>
+</center>
 
 已知 $f=\dfrac{1}{T}$， $T$为发射一个波所需要的时间， $T$时间内，博得传播速度为 $vT$，波源的移动距离为 $v_ST$. 此时，波源 $S$到波的距离即为波长,
 
@@ -129,7 +133,9 @@ $$
 
 认为当波源 $S$向观察者 $A$移动时，波长 $\lambda$缩短。
 
-![声源移动 观察者不动](./pics/rd_pic3.png)
+<center>
+<img src="./pics/rd_pic3.png" alt="声源移动 观察者不动"  height = 300/>
+</center>
 
 以观察者接受到声波为起始时间，共精力时间 $t$，此时波的传播距离为 $vt$，除以波长得到波数（ $A$接收到波的个数）
 
