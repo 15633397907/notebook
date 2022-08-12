@@ -1,10 +1,10 @@
-# Section.2 文件夹监控功能
+# 文件夹监控功能
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.2 文件夹监控功能](#section2-文件夹监控功能)
+- [文件夹监控功能](#文件夹监控功能)
   - [.pro](#pro)
   - [.h](#h)
   - [.cpp](#cpp)

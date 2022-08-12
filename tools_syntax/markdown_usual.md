@@ -1,6 +1,6 @@
-# Section.1 常规用法
+# markdown 常规用法
 
-[toc]
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 ## toc目录
 

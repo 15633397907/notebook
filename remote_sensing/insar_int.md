@@ -1,10 +1,10 @@
-# Section.3 主辅影像干涉
+# 主辅影像干涉
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.3 主辅影像干涉](#section3-主辅影像干涉)
+- [主辅影像干涉](#主辅影像干涉)
   - [复数影像的两种表现形式](#复数影像的两种表现形式)
   - [两种表现形式的干涉计算](#两种表现形式的干涉计算)
     - [强度相位表现形式](#强度相位表现形式)

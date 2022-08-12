@@ -1,4 +1,4 @@
-# Section.1 git命令
+# Git命令
 
 1. git add .    添加至暂存区
 2. git ls-files 查看add内容

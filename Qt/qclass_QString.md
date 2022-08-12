@@ -1,10 +1,10 @@
-# Section.1 QString功能
+# QString功能
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.1 QString功能](#section1-qstring功能)
+- [QString功能](#qstring功能)
   - [QString的转码功能](#qstring的转码功能)
     - [1.fromlocal8bit(GB2312)->toUtf8](#1fromlocal8bitgb2312-toutf8)
     - [2.utf8->tolocal8bit(GB2312)](#2utf8-tolocal8bitgb2312)

@@ -1,10 +1,10 @@
-# Section.3 MD5码获取
+# MD5码获取
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.3 MD5码获取](#section3-md5码获取)
+- [MD5码获取](#md5码获取)
   - [QCryptographicHash](#qcryptographichash)
 
 <!-- /code_chunk_output -->

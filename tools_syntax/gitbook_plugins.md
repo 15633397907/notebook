@@ -1,4 +1,4 @@
-# Section.3 gitbook添加插件
+# Gitbook添加插件
 
 通过添加插件可以使gitbook生成的电子书元素更加丰富。
 

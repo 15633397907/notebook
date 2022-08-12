@@ -1,10 +1,10 @@
-# Section.02 TableWidget
+# TableWidget
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.02 TableWidget](#section02-tablewidget)
+- [TableWidget](#tablewidget)
   - [setCellWidget存放QWidget](#setcellwidget存放qwidget)
   - [表格属性设置](#表格属性设置)
   - [单击双击事件区分](#单击双击事件区分)

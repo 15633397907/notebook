@@ -1,10 +1,10 @@
-# Section.2 主辅影像配准
+# 主辅影像配准
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.2 主辅影像配准](#section2-主辅影像配准)
+- [主辅影像配准](#主辅影像配准)
   - [相关系数法](#相关系数法)
     - [幅度互相关](#幅度互相关)
     - [复数相关](#复数相关)
