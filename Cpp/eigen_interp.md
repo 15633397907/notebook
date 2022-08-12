@@ -1,10 +1,10 @@
-# Section.3 Eigen的矩阵插值
+# Eigen的矩阵插值
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.3 Eigen的矩阵插值](#section3-eigen的矩阵插值)
+- [Eigen的矩阵插值](#eigen的矩阵插值)
   - [原理](#原理)
   - [代码](#代码)
 

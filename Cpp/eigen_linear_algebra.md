@@ -1,10 +1,10 @@
-# Section.21 线性问题预留21-40
+# 线性方程求解
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Section.21 线性问题预留21-40](#section21-线性问题预留21-40)
+- [线性方程求解](#线性方程求解)
   - [线性最小二乘](#线性最小二乘)
     - [SVD分解 (SVD decomposition)](#svd分解-svd-decomposition)
     - [QR分解 (QR decomposition)](#qr分解-qr-decomposition)
