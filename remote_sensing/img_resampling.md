@@ -18,11 +18,7 @@
 <img src="pics/image_resampling_pics_01.png" height="300" alt="双线性内插法"/>
 </center>
 
-四个像元点应分布在插值点四周，像元点之间间隔为1像素，内插点
-$$(u,v)$$
-的灰度值
-$$D(u,v)$$
-为：
+四个像元点应分布在插值点四周，像元点之间间隔为1像素，内插点 $(u,v)$的灰度值 $D(u,v)$为：
 
 $$
 D(u,v)=[A][B][C]
@@ -81,10 +77,7 @@ $$
 <img src="pics/image_resampling_pics_02.png" height="300" alt="三次卷积插值法"/>
 </center>
 
-16个像元点应分布在插值点四周，像元点之间间隔为1像素，内插点
-$$(u,v)$$
-的灰度值
-$$D(u,v)$$
+16个像元点应分布在插值点四周，像元点之间间隔为1像素，内插点 $(u,v)$的灰度值 $D(u,v)$
 为：
 
 $$
@@ -125,4 +118,4 @@ $$
 
 ## 代码
 
-参考 [03_eigen_interp.md](../../part02_cpp/cpt05_eigen/03_eigen_interp.md)
+参考 [eigen_interp.md](../Cpp/eigen_interp.md)
