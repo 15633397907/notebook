@@ -18,6 +18,10 @@ ifstream & ofstream, std的文件读写, 包括文本文件和二进制文件
 
 $2^n$值的筛选方法
 
+### [vector错误汇总](./std_vector_error.md)
+
+记录vector数组使用过程中的报错
+
 ## Eigen
 
 矩阵运算库
@@ -28,7 +32,7 @@ $2^n$值的筛选方法
 
 ### [Eigen线性方程解](./eigen_linear_algebra.md)
 
-包括 SVD QR & 传统方程
+包括 SVD、QR，以及传统方程
 
 ## GDAL
 
@@ -80,7 +84,9 @@ linux 与 windows 部分不支持双平台代码的平替选择。
 
 ### [stringSplit字符串切割](./cpp_stringSplit.md)
 
-支持长度大于1的切割符，以弥补std::string无split的问题，
+支持长度大于1的切割符，以弥补std::string无split的问题
+
+version2 支持长度大于1的分隔符，以及分隔符重复出现的情况。
 
 ## 编程知识
 
