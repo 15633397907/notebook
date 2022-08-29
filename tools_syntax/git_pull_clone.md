@@ -37,3 +37,21 @@
 使用clone的方式下拉远程库，方法大致与pull相同，但不能使用字符替换地址，必须使用真实路径
 
 `git clone /z/guihua/share/InSAR/LandSARGitRepostory `
+
+### Connection was reset
+
+fatal: unable to access 'https://github.com/dev-cafe/cmake-cookbook.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+这是服务器的SSL证书没有经过第三方机构的签署，所以报错。
+解决方法：
+git config --global http.sslVerify "false"
+
+### Failed to connect to github
+
+fatal: unable to access 'https://github.com/dev-cafe/cmake-cookbook.git/': Failed to connect to github.com port 443: Timed out
+尽管此时，我们的电脑已经可以翻墙了，git clone却不行，原因在于git 也需要配置代理：
+
+git config --global http.proxy http://127.0.0.1:7890
+或使用其他地址：
+
+git config --global https.proxy http://127.0.0.1:7890
+git config --global http.proxy http://127.0.0.1:9666
