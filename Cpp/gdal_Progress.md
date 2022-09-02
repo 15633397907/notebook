@@ -57,6 +57,4 @@ int main(int argc, char *argv[])
 
 结果如图所示
 
-<center>
-<img src="pics/image-20220407132249046.png" height="450" alt="RasterIO process"/>
-</center>
+![cmd效果展示](pics/image-20220407132249046.png)
