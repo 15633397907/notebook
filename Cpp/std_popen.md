@@ -18,6 +18,7 @@
 ## 代码示例
 
 通过调用cmd，执行`gdalinfo.exe --formats`命令，该命令是查看gdalinfo支持的数据格式（前提是要有gdalinfo且环境变量可查到该文件）
+
 ```C++
 char buffer[4096];
 const char* szCmd = "gdalinfo.exe --formats";
