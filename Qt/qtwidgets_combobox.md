@@ -24,7 +24,7 @@ ui->comboBox->setItemData(2,-1,Qt::UserRole -1);
 
 ## 修改ComboBox的显示项
 
-适用于输入或不输入某些附加条件时，与之相关联控件此处单是ComboBox）的显示与隐藏设置。
+适用于输入或不输入某些附加条件时，与之相关联控件此处单是ComboBox的显示与隐藏设置。
 
 ```c++
 QListView *view = qobject_cast<QListView *>(ui->comboBox->view());
