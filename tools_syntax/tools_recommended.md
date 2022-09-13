@@ -60,6 +60,8 @@ markdownlint
 
 核心方法是zotero账户只同步占空间极小的文献信息，文献库放到OneDrive云平台。为防止云平台的文献库多设备见出现未知错误，只将storage文件夹存放到云平台中，并使用`mklink /J`建立云平台storage与本地storage的链接。
 
+[zotero内置外文翻译](https://github.com/windingwind/zotero-pdf-translate.git)
+
 ## listary
 
 比everyone更方便的文件搜索工具。

@@ -118,4 +118,4 @@ $$
 
 ## 代码
 
-参考 [eigen_interp.md](../Cpp/eigen_interp.md)
+参考 [eigen_interp.md](../Cpp/eigen_interp.md#代码)
