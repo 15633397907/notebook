@@ -80,7 +80,7 @@ void widget_plus1::mousePressEvent(QMouseEvent *event)
 
 结果展示：
 
-<img src="./pics/press_event__linear_gradien.png">
+![](pics/press_event__linear_gradien.png)
 
 paintEvent 绘图事件,  在窗体显示影像时使用率非常高
 

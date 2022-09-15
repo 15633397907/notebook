@@ -66,11 +66,13 @@ cout << "The solution using the QR decomposition is:\n"
 
 ### 正规方程 (normal equations)
 
-$$\kern{20 mu}  Ax=b$$ 
-
-$$\Rightarrow A^TAx=A^Tb $$
-
-$$\Rightarrow x=(A^TA)^{-1}A^Tb$$
+$$
+\begin{aligned}
+   & Ax = b \\
+\Rightarrow & A^TAx=A^Tb \\
+\Rightarrow & x=(A^TA)^{-1}A^Tb \\
+\end{aligned}
+$$
 
 ```C++
 MatrixXf A = MatrixXf::Random(3, 2);

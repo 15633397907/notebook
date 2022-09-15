@@ -113,11 +113,7 @@ void geo_loc(double ra, double e2, double rho, double fd, double fc, double alt,
 
 代码涉及点和向量信息如下图所示，
 
-<center>
-
-<img src="pics/geo_loc.png" height="500" alt="几何关系"/>
-
-</center>
+![几何关系](pics/geo_loc.png)
 
 ### 以无误差值推算公式
 

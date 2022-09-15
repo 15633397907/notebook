@@ -49,7 +49,7 @@ for(auto iter: colortable_path)
 
 显示效果如下：
 
-<img src="./pics/qtablewidget_1.png">
+![](pics/qtablewidget_1.png)
 
 ## 表格属性设置
 

@@ -29,9 +29,9 @@ Definitions[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transver
 
 ### UTM zone
 
-[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=3)
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=3)
 
-<img src="pics/utm_wgs84blh_pic_01.png" alt="UTM Zones"  />
+![UTM Zones](pics/utm_wgs84blh_pic_01.png)
 
 Simplified view of [contiguous US](https://en.wikipedia.org/wiki/Contiguous_United_States) UTM zones, projected with Lambert conformal conic.
 
@@ -43,21 +43,21 @@ In each zone the scale factor of the central meridian reduces the diameter of th
 
 ### Overlapping grids
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=4)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=4)
 
-<img src="pics/utm_wgs84blh_pic_02.png" alt="?"  />
+![?](pics/utm_wgs84blh_pic_02.png)
 
 Universal Transverse Mercator (UTM) Grid Zones 31N thru 37N differ from the standard 6° wide by 84° zone for the northern hemisphere, in part to accommodate the southern half of the Kingdom of Norway. For more on its history, see Clifford J. Mugnier's article on Grids & Datums of The Kingdom of Norway that appeared in the October 1999 issue of PE&RS http://www.asprs.org/a/resources/grids/10-99-norway.pdf
 
 Distortion of scale increases in each UTM zone as the boundaries between the UTM zones are approached. However, it is often convenient or necessary to measure a series of locations on a single grid when some are located in two adjacent zones. Around the boundaries of large scale maps (1:100,000 or larger) coordinates for both adjoining UTM zones are usually printed within a minimum distance of 40 km on either side of a zone boundary. Ideally, the coordinates of each position should be measured on the grid for the zone in which they are located, but because the scale factor is still relatively small near zone boundaries, it is possible to overlap measurements into an adjoining zone for some distance when necessary.
 
-Latitude bands[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=5)]
+Latitude bands[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=5)
 
-Latitude bands are not a part of UTM, but rather a part of the [military grid reference system](https://en.wikipedia.org/wiki/Military_grid_reference_system) (MGRS).[[7\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-7) They are however sometimes used.
+Latitude bands are not a part of UTM, but rather a part of the [military grid reference system](https://en.wikipedia.org/wiki/Military_grid_reference_system) (MGRS).[\[7\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-7) They are however sometimes used.
 
 ### Latitude bands
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=6)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=6)
 
 Each zone is segmented into 20 latitude bands. Each latitude band is 8 degrees high, and is lettered starting from "C" at [80°S](https://en.wikipedia.org/wiki/80th_parallel_south), increasing up the [English](https://en.wikipedia.org/wiki/English_language) [alphabet](https://en.wikipedia.org/wiki/Alphabet) until "X", omitting the letters "I" and "O" (because of their similarity to the numerals one and zero). The last latitude band, "X", is extended an extra 4 degrees, so it ends at [84°N latitude](https://en.wikipedia.org/wiki/84th_parallel_north), thus covering the northernmost land on Earth.
 
@@ -65,37 +65,37 @@ Latitude bands "A" and "B" do exist, as do bands "Y" and "Z". They cover the wes
 
 ### Notation
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=7)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=7)
 
 The combination of a zone and a latitude band defines a grid zone. The zone is always written first, followed by the latitude band. For example, (see image, top right), a position in [Toronto, Ontario](https://en.wikipedia.org/wiki/Toronto,_Ontario), [Canada](https://en.wikipedia.org/wiki/Canada), would find itself in zone 17 and latitude band "T", thus the full grid zone reference is "17T". The grid zones serve to delineate irregular UTM zone boundaries. They also are an integral part of the [military grid reference system](https://en.wikipedia.org/wiki/Military_grid_reference_system).
 
-A note of caution: A method also is used that simply adds N or S following the zone number to indicate North or South hemisphere (the easting and northing coordinates along with the zone number supplying everything necessary to geolocate a position except which hemisphere). However, this method has caused some confusion since, for instance, "50S" can mean southern hemisphere but also *grid zone* "50S" in the northern hemisphere.[[8\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-8) There are many possible ways to disambiguate between the two methods, two of which are demonstrated later in this article.
+A note of caution: A method also is used that simply adds N or S following the zone number to indicate North or South hemisphere (the easting and northing coordinates along with the zone number supplying everything necessary to geolocate a position except which hemisphere). However, this method has caused some confusion since, for instance, "50S" can mean southern hemisphere but also *grid zone* "50S" in the northern hemisphere.[\[8\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-8) There are many possible ways to disambiguate between the two methods, two of which are demonstrated later in this article.
 
 ### Exceptions
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=8)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=8)
 
 These grid zones are uniform over the globe, except in two areas. On the southwest coast of [Norway](https://en.wikipedia.org/wiki/Norway), grid zone 32V (9° of longitude in width) is extended further west, and grid zone 31V (3° of longitude in width) is correspondingly shrunk to cover only open water. Also, in the region around [Svalbard](https://en.wikipedia.org/wiki/Svalbard), the four grid zones 31X (9° of longitude in width), 33X (12° of longitude in width), 35X (12° of longitude in width), and 37X (9° of longitude in width) are extended to cover what would otherwise have been covered by the seven grid zones 31X to 37X. The three grid zones 32X, 34X and 36X are not used.
 
 ### Grid zones in various parts of the world
 
-<img src="pics/utm_wgs84blh_pic_03.png" alt="Europe"  />
+![Europe](pics/utm_wgs84blh_pic_03.png)
 
 Europe
 
-<img src="pics/utm_wgs84blh_pic_04.png" alt="Africa"  />
+![Africa](pics/utm_wgs84blh_pic_04.png)
 
 Africa 
 
-<img src="pics/utm_wgs84blh_pic_05.png" alt="South America"  />
+![South America](pics/utm_wgs84blh_pic_05.png)
 
 South America 
 
-<img src="pics/utm_wgs84blh_pic_06.png" alt="Bering Sea with Alaska"  />
+![Bering Sea with Alaska](pics/utm_wgs84blh_pic_06.png)
 
 Bering Sea with Alaska
 
-Locating a position using UTM coordinates[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=9)]
+Locating a position using UTM coordinates [\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=9)
 
 A position on the Earth is given by the UTM zone number and the [easting and northing](https://en.wikipedia.org/wiki/Easting_and_northing) planar coordinate pair in that zone. The [point of origin](https://en.wikipedia.org/wiki/Origin_(mathematics)) of each UTM zone is the intersection of the equator and the zone's central meridian. To avoid dealing with negative numbers, the central meridian of each zone is defined to coincide with 500000 meters East. In any zone a point that has an easting of 400000 meters is about 100 km west of the central meridian. For most such points, the true distance would be slightly more than 100 km as measured on the surface of the Earth because of the distortion of the projection. UTM eastings range from about 167000 meters to 833000 meters at the equator.
 
@@ -110,9 +110,9 @@ Because latitude band "S" is in the northern hemisphere, a designation such as "
 
 ### Simplified formulae
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=10)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=10)]
 
-These formulae are truncated version of [Transverse Mercator: flattening series](https://en.wikipedia.org/w/index.php?title=Transverse_Mercator:_flattening_series&action=edit&redlink=1), which were originally derived by [Johann Heinrich Louis Krüger](https://en.wikipedia.org/wiki/Johann_Heinrich_Louis_Krüger) in 1912.[[9\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kruger-9) They are accurate to around a [millimeter](https://en.wikipedia.org/wiki/Millimeter) within 3,000 km of the central meridian.[[10\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-karney-10) Concise commentaries for their derivation have also been given.[[11\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kawase2012-11)[[12\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kawase2011-12)
+These formulae are truncated version of [Transverse Mercator: flattening series](https://en.wikipedia.org/w/index.php?title=Transverse_Mercator:_flattening_series&action=edit&redlink=1), which were originally derived by [Johann Heinrich Louis Krüger](https://en.wikipedia.org/wiki/Johann_Heinrich_Louis_Krüger) in 1912.[\[9\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kruger-9) They are accurate to around a [millimeter](https://en.wikipedia.org/wiki/Millimeter) within 3,000 km of the central meridian.[\[10\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-karney-10) Concise commentaries for their derivation have also been given.[\[11\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kawase2012-11)[\[12\]](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#cite_note-kawase2011-12)
 
 The [WGS 84](https://en.wikipedia.org/wiki/WGS_84) [spatial reference system](https://en.wikipedia.org/wiki/Spatial_reference_system) describes Earth as an [oblate spheroid](https://en.wikipedia.org/wiki/Oblate_spheroid) along north-south axis with an [equatorial radius](https://en.wikipedia.org/wiki/Equatorial_radius) of $a=6378.137$ km and an inverse [flattening](https://en.wikipedia.org/wiki/Flattening) of $1/f=298.257 223 563$. Let's take a point of latitude  $\varphi$ and of longitude $\lambda$ and compute its UTM coordinates as well as [point scale factor](https://en.wikipedia.org/wiki/Transverse_Mercator_projection#Point_scale) $k$ and [meridian convergence](https://en.wikipedia.org/wiki/Transverse_Mercator_projection#Convergence) $\gamma$ using a reference meridian of longitude . By convention, in the [northern hemisphere](https://en.wikipedia.org/wiki/Northern_hemisphere) $N_0=0$ km and in the [southern hemisphere](https://en.wikipedia.org/wiki/Southern_hemisphere) $N_0=10000km$. By convention also $k_0=0.9996$ and $E_0=500km$.
 
@@ -128,7 +128,7 @@ $$  \delta_1=2n-\frac{2}{3}n^2-2n^3,\delta_2=\frac{7}{3}n^2-\frac{8}{5}n^3,\delt
 
 ### From latitude, longitude (*φ*,*λ*) to UTM coordinates (E, N)
 
-[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=11)]
+[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=11)
 
 First let's compute some intermediate values:
 
@@ -148,7 +148,7 @@ $$k=\frac{k_0A}{a}\sqrt{\{1+\bigg(\frac{1-n}{1+n}\tan\varphi\bigg)^2\}\frac{\sig
 
 $$\gamma=\tan^{-1}\bigg(\frac{\tau\sqrt{1+t^2}+\sigma t\tan(\lambda-\lambda_0)}{\sigma\sqrt{1+t^2}-\tau t\tan(\lambda-\lambda_0)}\bigg)$$
 
-**From UTM coordinates (E, N, Zone, Hemi) to latitude, longitude (φ, λ)**[[edit](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=12)]
+**From UTM coordinates (E, N, Zone, Hemi) to latitude, longitude (φ, λ)**[\[edit\]](https://en.wikipedia.org/w/index.php?title=Universal_Transverse_Mercator_coordinate_system&action=edit&section=12)
 
 Note: Hemi=+1 for Northern, Hemi=-1 for Southern
 
