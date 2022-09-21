@@ -14,6 +14,7 @@
   - [listary](#listary)
   - [Captura](#captura)
   - [个人主页](#个人主页)
+  - [vcpkg](#vcpkg)
 
 <!-- /code_chunk_output -->
 
@@ -75,3 +76,19 @@ markdownlint
 github.io
 
 ReadTheDocs
+
+## vcpkg
+
+windows下的c++库
+
+```shell
+# 安装
+git clone https://github.com/microsoft/vcpkg
+.\vcpkg\bootstrap-vcpkg.bat
+# 下载包 
+.\vcpkg\vcpkg install [package name]:x64-windows
+```
+
+下载gdal时，出现libpq failed。
+
+解决方法：Visual Studio 添加英文环境。
