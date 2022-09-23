@@ -9,6 +9,7 @@
   - [中间文件生成路径](#中间文件生成路径)
   - [QMAKE_CXXFLAGS](#qmake_cxxflags)
   - [stdlib.h no such file or directory](#stdlibh-no-such-file-or-directory)
+  - [COPY](#copy)
 
 <!-- /code_chunk_output -->
 
@@ -99,3 +100,27 @@ QT += widgets
 QMAKE_CFLAGS_ISYSTEM=-I
 }
 ```
+
+## COPY
+
+编译前COPY文件到指定位置
+
+场景：当工程调用外部库时，需要将dll文件拷贝到exe的目录中才可以正常使用软件。而拷贝是一个繁琐的过程。
+
+最好的办法是使用qmake自动查找依赖库并且自动填充到指定位置。
+
+由于还不会上述操作，暂时使用`QMAKE_PRE_LINK`+`COPY`代替。
+
+首先确定待拷贝文件的地址以及需要拷贝到的路径。
+
+```qmake
+MINGW64_BIN = D:/msys64/mingw64/bin
+src_dll = $$MINGW64_BIN/libgdal*.dll
+src_dll = $$replace(src_dll, /, \\)
+dst_dll = $$replace(DESTDIR, /, \\)
+QMAKE_PRE_LINK += copy /Y $$src_dll $$dst_dll
+```
+
+src_dll就是存储多有dll地址的文件，dst_dll是dll拷贝到的路径，使用copy指令执行copy操作。 一次只能copy一个或一批可以用*号替换的文件。
+
+windows中（至少是windows）的copy操作，只能识别`\\`windows版本的分隔符。
