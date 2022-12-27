@@ -10,6 +10,7 @@
   - [单击双击事件区分](#单击双击事件区分)
     - [Code](#code)
     - [原理](#原理)
+    - [问题](#问题)
 
 <!-- /code_chunk_output -->
 
@@ -107,3 +108,8 @@ connect(ui->treeWidget_tool,&QTreeWidget::itemClicked,this,[=](QTreeWidgetItem* 
 - 单击时, 通过is_clicked 区别执行程序;
   - 如果is_clicked == false, 则令is_clicked = true, 启动QTimer计时器, 并创建计时器结束触发单击事件的信号槽. 事件包括: 单击对应的函数、关闭QTimer, 取消QTimer的信号槽, is_clicked = false;
   - 如果is_clicked == true, 说明在触发器发出信号前再次点击, 视为双击. 执行双击事件, 并关闭QTimer, 取消QTimer信号槽,  is_clicked = false. 由于代码中仅考虑双击事件, 故双击后不需要执行上述关闭QTimer等步骤, 只需要等到QTimer触发后由单击部分帮助执行.
+
+### 问题
+
+在后续使用MSVC2022 + CMAKE + vcpkg + Qt5.15.7开发时，上述方法无法使用。
+分别设定`itemClick`和`itemDoubleClick`的槽函数（打印字符串）发现, 一次双击只能先后触发一次`itemClick`和一次`itemDoubleClick`，即第二次的`itemClick`事件无法触发，从而导致使用上述方法时，需要三次连击才可以触发`itemDoubleClick`事件。

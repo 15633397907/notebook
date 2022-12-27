@@ -2,6 +2,16 @@
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
+<!-- code_chunk_output -->
+
+- [sqlite3](#sqlite3)
+  - [概况](#概况)
+  - [主要函数](#主要函数)
+  - [回调函数](#回调函数)
+  - [注意事项](#注意事项)
+
+<!-- /code_chunk_output -->
+
 ## 概况
 
 sqlite3 是一个基于c/c++实现的轻量级数据库，对环境依赖非常小，所以常应用于嵌入式开发（与该文档无关）。
